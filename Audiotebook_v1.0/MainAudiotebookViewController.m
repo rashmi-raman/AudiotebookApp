@@ -322,6 +322,13 @@
         ContactsTableViewController *piclist = (ContactsTableViewController *)[[navController viewControllers] lastObject];
         piclist.managedObjectContext = managedObjectContext;
     }
+    else if ([[segue identifier] isEqualToString:@"MenuReturn"])
+    {
+        MenuViewController * logView = segue.destinationViewController;
+        if( [logView respondsToSelector: @selector (setManagedObjectContext:)] ) {
+            [logView setValue:self.managedObjectContext forKey:@"managedObjectContext"];
+        }
+    }
     else {
         AudioRecordViewController * logView = segue.destinationViewController;
         if( [logView respondsToSelector: @selector (setManagedObjectContext:)] ) {

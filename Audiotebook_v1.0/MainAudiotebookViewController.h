@@ -10,6 +10,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import "UserPrefs.h"
 #import "DisplayContactViewController.h"
+#import "MenuViewController.h"
 #import "CoreDataHelper.h"
 
 
