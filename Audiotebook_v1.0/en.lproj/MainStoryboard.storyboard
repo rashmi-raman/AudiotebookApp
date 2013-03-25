@@ -365,7 +365,7 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="LMQ-X5-cWp" detailTextLabel="nbc-Wi-xCN" rowHeight="84" style="IBUITableViewCellStyleSubtitle" id="9Je-RA-HTH">
-                                <rect key="frame" x="0.0" y="46" width="320" height="85"/>
+                                <rect key="frame" x="0.0" y="46" width="320" height="86"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="10" y="1" width="280" height="83"/>
@@ -530,7 +530,7 @@
                             <tableViewSection id="hpS-An-CO4">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="95" id="ZBe-t3-3Bc">
-                                        <rect key="frame" x="0.0" y="10" width="320" height="96"/>
+                                        <rect key="frame" x="0.0" y="10" width="320" height="97"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="300" height="94"/>
@@ -672,7 +672,7 @@
                                         </constraints>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="4TH-2Z-1Tp">
-                                        <rect key="frame" x="0.0" y="215" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="215" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="0.0" width="300" height="43"/>
@@ -785,7 +785,7 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="bgK-JA-Y6h" detailTextLabel="thP-Lq-y1W" rowHeight="84" style="IBUITableViewCellStyleSubtitle" id="2Bm-er-cMb">
-                                <rect key="frame" x="0.0" y="46" width="320" height="85"/>
+                                <rect key="frame" x="0.0" y="46" width="320" height="86"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="10" y="1" width="280" height="83"/>
@@ -856,7 +856,7 @@
                             <tableViewSection id="DMx-I8-58c">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="95" id="4PE-G4-q56">
-                                        <rect key="frame" x="0.0" y="10" width="320" height="96"/>
+                                        <rect key="frame" x="0.0" y="10" width="320" height="97"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="300" height="94"/>
@@ -998,7 +998,7 @@
                                         </constraints>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="rej-CL-1Ul">
-                                        <rect key="frame" x="0.0" y="215" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="215" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="0.0" width="300" height="43"/>
@@ -1105,73 +1105,6 @@
     <resources>
         <image name="splashScreen.png" width="320" height="480"/>
     </resources>
-    <classes>
-        <class className="AudioRecordViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AudioRecordViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="playAudio:"/>
-                <relationship kind="action" name="recordAudio:"/>
-                <relationship kind="action" name="stop:"/>
-                <relationship kind="outlet" name="playButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="recordButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="recordingLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="stopButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="AudiotebookViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AudiotebookViewController.h"/>
-        </class>
-        <class className="ContactsEditViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ContactsEditViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="MakeCall:"/>
-                <relationship kind="outlet" name="descriptionField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="imageField" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="phoneField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="titleField" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-        <class className="ContactsSectionViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ContactsSectionViewController.h"/>
-        </class>
-        <class className="ContactsTableViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ContactsTableViewController.h"/>
-        </class>
-        <class className="DisplayContactViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DisplayContactViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="MakeCall:"/>
-                <relationship kind="outlet" name="descriptionField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="imageField" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="phoneField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="titleField" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-        <class className="MainAudiotebookViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MainAudiotebookViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="addAudio:forEvent:" candidateClass="UIButton"/>
-                <relationship kind="action" name="addPhoto:forEvent:" candidateClass="UIButton"/>
-                <relationship kind="action" name="backgroundTap:"/>
-                <relationship kind="action" name="reset:forEvent:" candidateClass="UIButton"/>
-                <relationship kind="action" name="submit:forEvent:" candidateClass="UIButton"/>
-                <relationship kind="action" name="textFieldDoneEditing:"/>
-                <relationship kind="outlet" name="contactName" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="latitudeLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="longitudeLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="notes" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="photoMessage" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="selectedImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="slug" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-        <class className="MenuViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MenuViewController.h"/>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
