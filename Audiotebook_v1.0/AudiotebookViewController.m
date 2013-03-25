@@ -7,12 +7,16 @@
 //
 
 #import "AudiotebookViewController.h"
+#import "MenuViewController.h"
+#import "MainAudiotebookViewController.h"
 
 @interface AudiotebookViewController ()
 
 @end
 
 @implementation AudiotebookViewController
+
+@synthesize managedObjectContext;
 
 - (void)viewDidLoad
 {
@@ -25,5 +29,14 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (void) prepareForSegue:(UIStoryboardSegue*)segue sender:(id)sender
+{
+        MenuViewController* logView = segue.destinationViewController;
+        if( [logView respondsToSelector: @selector (setManagedObjectContext:)] ) {
+            [logView setValue:self.managedObjectContext forKey:@"managedObjectContext"];
+    }
+}
+
 
 @end

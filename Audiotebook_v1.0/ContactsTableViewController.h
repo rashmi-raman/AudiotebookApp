@@ -1,5 +1,5 @@
 //
-//  AudiotebookViewController.h
+//  ContactsTableViewController.h
 //  Audiotebook_v1.0
 //
 //  Created by Robert Walport on 2/13/13.
@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DisplayContactViewController.h"
 
-@interface AudiotebookViewController : UIViewController
+@interface ContactsTableViewController : UITableViewController
 
 @property  (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property  (strong, nonatomic) NSMutableArray *pictureListData;
+
+- (void)readDataForTable;
 
 @end

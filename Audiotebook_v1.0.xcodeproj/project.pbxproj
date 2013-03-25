@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		660232BD16D0175300B9DB3F /* UserPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 660232BC16D0175300B9DB3F /* UserPrefs.m */; };
+		660232BF16D019DE00B9DB3F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660232BE16D019DE00B9DB3F /* CoreLocation.framework */; };
+		660232C616D020A500B9DB3F /* AudioRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 660232C516D020A500B9DB3F /* AudioRecordViewController.m */; };
+		660232C816D021F600B9DB3F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660232C716D021F600B9DB3F /* AVFoundation.framework */; };
+		660E0A7216FE86D7002C1583 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 660E0A7116FE86D7002C1583 /* MenuViewController.m */; };
+		6611D92E16FFA1780082D342 /* ContactsSectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6611D92D16FFA1780082D342 /* ContactsSectionViewController.m */; };
+		663379D816DC5176004B77AC /* Contacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 663379D616DC5176004B77AC /* Contacts.xcdatamodeld */; };
 		669F49BA16CC2DF70043E8AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669F49B916CC2DF70043E8AF /* UIKit.framework */; };
 		669F49BC16CC2DF70043E8AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669F49BB16CC2DF70043E8AF /* Foundation.framework */; };
 		669F49BE16CC2DF70043E8AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669F49BD16CC2DF70043E8AF /* CoreGraphics.framework */; };
@@ -18,9 +25,29 @@
 		669F49D016CC2DF70043E8AF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 669F49CF16CC2DF70043E8AF /* Default-568h@2x.png */; };
 		669F49D316CC2DF70043E8AF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669F49D116CC2DF70043E8AF /* MainStoryboard.storyboard */; };
 		669F49D616CC2DF70043E8AF /* AudiotebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 669F49D516CC2DF70043E8AF /* AudiotebookViewController.m */; };
+		669F49DE16CC2E960043E8AF /* splashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 669F49DC16CC2E960043E8AF /* splashScreen.png */; };
+		669F49DF16CC2E960043E8AF /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 669F49DD16CC2E960043E8AF /* background.jpg */; };
+		669F49E216CC369B0043E8AF /* ContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 669F49E116CC369B0043E8AF /* ContactsTableViewController.m */; };
+		669F49E516CC36CE0043E8AF /* DisplayContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 669F49E416CC36CE0043E8AF /* DisplayContactViewController.m */; };
+		669F49E816CC36EF0043E8AF /* MainAudiotebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 669F49E716CC36EF0043E8AF /* MainAudiotebookViewController.m */; };
+		66C4EC3B16FFA2DF000CF2A9 /* ContactsEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C4EC3A16FFA2DF000CF2A9 /* ContactsEditViewController.m */; };
+		66CA6CB016ECE04F007F2AC9 /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CA6CAF16ECE04F007F2AC9 /* CoreDataHelper.m */; };
+		66CA6CEF16ECE945007F2AC9 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CA6CEE16ECE945007F2AC9 /* Contact.m */; };
+		66CA6CF516ECF0EA007F2AC9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CA6CF416ECF0EA007F2AC9 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		660232BB16D0175300B9DB3F /* UserPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPrefs.h; sourceTree = "<group>"; };
+		660232BC16D0175300B9DB3F /* UserPrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPrefs.m; sourceTree = "<group>"; };
+		660232BE16D019DE00B9DB3F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		660232C416D020A500B9DB3F /* AudioRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioRecordViewController.h; sourceTree = "<group>"; };
+		660232C516D020A500B9DB3F /* AudioRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioRecordViewController.m; sourceTree = "<group>"; };
+		660232C716D021F600B9DB3F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		660E0A7016FE86D7002C1583 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		660E0A7116FE86D7002C1583 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		6611D92C16FFA1780082D342 /* ContactsSectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsSectionViewController.h; sourceTree = "<group>"; };
+		6611D92D16FFA1780082D342 /* ContactsSectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsSectionViewController.m; sourceTree = "<group>"; };
+		663379D716DC5176004B77AC /* Contacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contacts.xcdatamodel; sourceTree = "<group>"; };
 		669F49B516CC2DF70043E8AF /* Audiotebook_v1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Audiotebook_v1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		669F49B916CC2DF70043E8AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		669F49BB16CC2DF70043E8AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +64,21 @@
 		669F49D216CC2DF70043E8AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		669F49D416CC2DF70043E8AF /* AudiotebookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudiotebookViewController.h; sourceTree = "<group>"; };
 		669F49D516CC2DF70043E8AF /* AudiotebookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudiotebookViewController.m; sourceTree = "<group>"; };
+		669F49DC16CC2E960043E8AF /* splashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splashScreen.png; path = "../../../../../Downloads/Audiotebook_v0.3 3/Audiotebook_v0.1/splashScreen.png"; sourceTree = "<group>"; };
+		669F49DD16CC2E960043E8AF /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = "../../../../../Downloads/Audiotebook_v0.3 3/Audiotebook_v0.1/background.jpg"; sourceTree = "<group>"; };
+		669F49E016CC369B0043E8AF /* ContactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsTableViewController.h; sourceTree = "<group>"; };
+		669F49E116CC369B0043E8AF /* ContactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsTableViewController.m; sourceTree = "<group>"; };
+		669F49E316CC36CE0043E8AF /* DisplayContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayContactViewController.h; sourceTree = "<group>"; };
+		669F49E416CC36CE0043E8AF /* DisplayContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayContactViewController.m; sourceTree = "<group>"; };
+		669F49E616CC36EF0043E8AF /* MainAudiotebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainAudiotebookViewController.h; sourceTree = "<group>"; };
+		669F49E716CC36EF0043E8AF /* MainAudiotebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainAudiotebookViewController.m; sourceTree = "<group>"; };
+		66C4EC3916FFA2DF000CF2A9 /* ContactsEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsEditViewController.h; sourceTree = "<group>"; };
+		66C4EC3A16FFA2DF000CF2A9 /* ContactsEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsEditViewController.m; sourceTree = "<group>"; };
+		66CA6CAE16ECE04F007F2AC9 /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		66CA6CAF16ECE04F007F2AC9 /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
+		66CA6CED16ECE945007F2AC9 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		66CA6CEE16ECE945007F2AC9 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		66CA6CF416ECF0EA007F2AC9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +86,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66CA6CF516ECF0EA007F2AC9 /* CoreData.framework in Frameworks */,
+				660232C816D021F600B9DB3F /* AVFoundation.framework in Frameworks */,
+				660232BF16D019DE00B9DB3F /* CoreLocation.framework in Frameworks */,
 				669F49BA16CC2DF70043E8AF /* UIKit.framework in Frameworks */,
 				669F49BC16CC2DF70043E8AF /* Foundation.framework in Frameworks */,
 				669F49BE16CC2DF70043E8AF /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +101,7 @@
 		669F49AA16CC2DF70043E8AF = {
 			isa = PBXGroup;
 			children = (
+				66CA6CF416ECF0EA007F2AC9 /* CoreData.framework */,
 				669F49BF16CC2DF70043E8AF /* Audiotebook_v1.0 */,
 				669F49B816CC2DF70043E8AF /* Frameworks */,
 				669F49B616CC2DF70043E8AF /* Products */,
@@ -73,6 +119,8 @@
 		669F49B816CC2DF70043E8AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				660232BE16D019DE00B9DB3F /* CoreLocation.framework */,
+				660232C716D021F600B9DB3F /* AVFoundation.framework */,
 				669F49B916CC2DF70043E8AF /* UIKit.framework */,
 				669F49BB16CC2DF70043E8AF /* Foundation.framework */,
 				669F49BD16CC2DF70043E8AF /* CoreGraphics.framework */,
@@ -83,12 +131,23 @@
 		669F49BF16CC2DF70043E8AF /* Audiotebook_v1.0 */ = {
 			isa = PBXGroup;
 			children = (
+				66C4EC3E16FFA465000CF2A9 /* Interview */,
+				66C4EC3D16FFA44E000CF2A9 /* Contacts */,
+				66CA6CB216ECE21B007F2AC9 /* Coredata */,
+				660232BB16D0175300B9DB3F /* UserPrefs.h */,
+				660232BC16D0175300B9DB3F /* UserPrefs.m */,
 				669F49C816CC2DF70043E8AF /* AudiotebookAppDelegate.h */,
 				669F49C916CC2DF70043E8AF /* AudiotebookAppDelegate.m */,
 				669F49D116CC2DF70043E8AF /* MainStoryboard.storyboard */,
+				669F49DC16CC2E960043E8AF /* splashScreen.png */,
+				669F49DD16CC2E960043E8AF /* background.jpg */,
 				669F49D416CC2DF70043E8AF /* AudiotebookViewController.h */,
 				669F49D516CC2DF70043E8AF /* AudiotebookViewController.m */,
 				669F49C016CC2DF70043E8AF /* Supporting Files */,
+				660232C416D020A500B9DB3F /* AudioRecordViewController.h */,
+				660232C516D020A500B9DB3F /* AudioRecordViewController.m */,
+				660E0A7016FE86D7002C1583 /* MenuViewController.h */,
+				660E0A7116FE86D7002C1583 /* MenuViewController.m */,
 			);
 			path = Audiotebook_v1.0;
 			sourceTree = "<group>";
@@ -105,6 +164,42 @@
 				669F49CF16CC2DF70043E8AF /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66C4EC3D16FFA44E000CF2A9 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				6611D92C16FFA1780082D342 /* ContactsSectionViewController.h */,
+				6611D92D16FFA1780082D342 /* ContactsSectionViewController.m */,
+				66C4EC3916FFA2DF000CF2A9 /* ContactsEditViewController.h */,
+				66C4EC3A16FFA2DF000CF2A9 /* ContactsEditViewController.m */,
+			);
+			name = Contacts;
+			sourceTree = "<group>";
+		};
+		66C4EC3E16FFA465000CF2A9 /* Interview */ = {
+			isa = PBXGroup;
+			children = (
+				669F49E316CC36CE0043E8AF /* DisplayContactViewController.h */,
+				669F49E416CC36CE0043E8AF /* DisplayContactViewController.m */,
+				669F49E616CC36EF0043E8AF /* MainAudiotebookViewController.h */,
+				669F49E716CC36EF0043E8AF /* MainAudiotebookViewController.m */,
+				669F49E016CC369B0043E8AF /* ContactsTableViewController.h */,
+				669F49E116CC369B0043E8AF /* ContactsTableViewController.m */,
+			);
+			name = Interview;
+			sourceTree = "<group>";
+		};
+		66CA6CB216ECE21B007F2AC9 /* Coredata */ = {
+			isa = PBXGroup;
+			children = (
+				663379D616DC5176004B77AC /* Contacts.xcdatamodeld */,
+				66CA6CAE16ECE04F007F2AC9 /* CoreDataHelper.h */,
+				66CA6CAF16ECE04F007F2AC9 /* CoreDataHelper.m */,
+				66CA6CED16ECE945007F2AC9 /* Contact.h */,
+				66CA6CEE16ECE945007F2AC9 /* Contact.m */,
+			);
+			name = Coredata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +259,8 @@
 				669F49CE16CC2DF70043E8AF /* Default@2x.png in Resources */,
 				669F49D016CC2DF70043E8AF /* Default-568h@2x.png in Resources */,
 				669F49D316CC2DF70043E8AF /* MainStoryboard.storyboard in Resources */,
+				669F49DE16CC2E960043E8AF /* splashScreen.png in Resources */,
+				669F49DF16CC2E960043E8AF /* background.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +274,17 @@
 				669F49C616CC2DF70043E8AF /* main.m in Sources */,
 				669F49CA16CC2DF70043E8AF /* AudiotebookAppDelegate.m in Sources */,
 				669F49D616CC2DF70043E8AF /* AudiotebookViewController.m in Sources */,
+				669F49E216CC369B0043E8AF /* ContactsTableViewController.m in Sources */,
+				669F49E516CC36CE0043E8AF /* DisplayContactViewController.m in Sources */,
+				669F49E816CC36EF0043E8AF /* MainAudiotebookViewController.m in Sources */,
+				660232BD16D0175300B9DB3F /* UserPrefs.m in Sources */,
+				660232C616D020A500B9DB3F /* AudioRecordViewController.m in Sources */,
+				663379D816DC5176004B77AC /* Contacts.xcdatamodeld in Sources */,
+				66CA6CB016ECE04F007F2AC9 /* CoreDataHelper.m in Sources */,
+				66CA6CEF16ECE945007F2AC9 /* Contact.m in Sources */,
+				660E0A7216FE86D7002C1583 /* MenuViewController.m in Sources */,
+				6611D92E16FFA1780082D342 /* ContactsSectionViewController.m in Sources */,
+				66C4EC3B16FFA2DF000CF2A9 /* ContactsEditViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +366,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Audiotebook_v1.0/Audiotebook_v1.0-Prefix.pch";
 				INFOPLIST_FILE = "Audiotebook_v1.0/Audiotebook_v1.0-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -269,7 +379,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Audiotebook_v1.0/Audiotebook_v1.0-Prefix.pch";
 				INFOPLIST_FILE = "Audiotebook_v1.0/Audiotebook_v1.0-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -293,8 +405,22 @@
 				669F49DB16CC2DF70043E8AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		663379D616DC5176004B77AC /* Contacts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				663379D716DC5176004B77AC /* Contacts.xcdatamodel */,
+			);
+			currentVersion = 663379D716DC5176004B77AC /* Contacts.xcdatamodel */;
+			path = Contacts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 669F49AC16CC2DF70043E8AF /* Project object */;
 }
