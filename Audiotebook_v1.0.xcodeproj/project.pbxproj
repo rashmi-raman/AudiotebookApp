@@ -14,6 +14,9 @@
 		660E0A7216FE86D7002C1583 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 660E0A7116FE86D7002C1583 /* MenuViewController.m */; };
 		6611D92E16FFA1780082D342 /* ContactsSectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6611D92D16FFA1780082D342 /* ContactsSectionViewController.m */; };
 		663379D816DC5176004B77AC /* Contacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 663379D616DC5176004B77AC /* Contacts.xcdatamodeld */; };
+		66531C45170117B300B99047 /* AudiotebookLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 66531C44170117B300B99047 /* AudiotebookLogo.png */; };
+		66531C4C1701183E00B99047 /* AudiotebookLogoRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = 66531C4B1701183E00B99047 /* AudiotebookLogoRetina.png */; };
+		66531C4E1701184900B99047 /* AudiotebookLogoRegular.png in Resources */ = {isa = PBXBuildFile; fileRef = 66531C4D1701184900B99047 /* AudiotebookLogoRegular.png */; };
 		669F49BA16CC2DF70043E8AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669F49B916CC2DF70043E8AF /* UIKit.framework */; };
 		669F49BC16CC2DF70043E8AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669F49BB16CC2DF70043E8AF /* Foundation.framework */; };
 		669F49BE16CC2DF70043E8AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669F49BD16CC2DF70043E8AF /* CoreGraphics.framework */; };
@@ -48,6 +51,9 @@
 		6611D92C16FFA1780082D342 /* ContactsSectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsSectionViewController.h; sourceTree = "<group>"; };
 		6611D92D16FFA1780082D342 /* ContactsSectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsSectionViewController.m; sourceTree = "<group>"; };
 		663379D716DC5176004B77AC /* Contacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contacts.xcdatamodel; sourceTree = "<group>"; };
+		66531C44170117B300B99047 /* AudiotebookLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudiotebookLogo.png; sourceTree = "<group>"; };
+		66531C4B1701183E00B99047 /* AudiotebookLogoRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudiotebookLogoRetina.png; sourceTree = "<group>"; };
+		66531C4D1701184900B99047 /* AudiotebookLogoRegular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudiotebookLogoRegular.png; sourceTree = "<group>"; };
 		669F49B516CC2DF70043E8AF /* Audiotebook_v1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Audiotebook_v1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		669F49B916CC2DF70043E8AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		669F49BB16CC2DF70043E8AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -101,6 +107,8 @@
 		669F49AA16CC2DF70043E8AF = {
 			isa = PBXGroup;
 			children = (
+				66531C4D1701184900B99047 /* AudiotebookLogoRegular.png */,
+				66531C4B1701183E00B99047 /* AudiotebookLogoRetina.png */,
 				66CA6CF416ECF0EA007F2AC9 /* CoreData.framework */,
 				669F49BF16CC2DF70043E8AF /* Audiotebook_v1.0 */,
 				669F49B816CC2DF70043E8AF /* Frameworks */,
@@ -131,6 +139,7 @@
 		669F49BF16CC2DF70043E8AF /* Audiotebook_v1.0 */ = {
 			isa = PBXGroup;
 			children = (
+				66531C44170117B300B99047 /* AudiotebookLogo.png */,
 				66C4EC3E16FFA465000CF2A9 /* Interview */,
 				66C4EC3D16FFA44E000CF2A9 /* Contacts */,
 				66CA6CB216ECE21B007F2AC9 /* Coredata */,
@@ -261,6 +270,9 @@
 				669F49D316CC2DF70043E8AF /* MainStoryboard.storyboard in Resources */,
 				669F49DE16CC2E960043E8AF /* splashScreen.png in Resources */,
 				669F49DF16CC2E960043E8AF /* background.jpg in Resources */,
+				66531C45170117B300B99047 /* AudiotebookLogo.png in Resources */,
+				66531C4C1701183E00B99047 /* AudiotebookLogoRetina.png in Resources */,
+				66531C4E1701184900B99047 /* AudiotebookLogoRegular.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

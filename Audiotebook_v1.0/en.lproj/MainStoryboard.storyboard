@@ -1105,6 +1105,70 @@
     <resources>
         <image name="splashScreen.png" width="320" height="480"/>
     </resources>
+    <classes>
+        <class className="AudioRecordViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AudioRecordViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="playAudio:"/>
+                <relationship kind="action" name="recordAudio:"/>
+                <relationship kind="action" name="stop:"/>
+                <relationship kind="outlet" name="playButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="recordButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="recordingLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="stopButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="AudiotebookViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AudiotebookViewController.h"/>
+        </class>
+        <class className="ContactsEditViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ContactsEditViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="MakeCall:"/>
+                <relationship kind="outlet" name="descriptionField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="imageField" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="phoneField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="titleField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="ContactsSectionViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ContactsSectionViewController.h"/>
+        </class>
+        <class className="ContactsTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ContactsTableViewController.h"/>
+        </class>
+        <class className="DisplayContactViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DisplayContactViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="MakeCall:"/>
+                <relationship kind="outlet" name="descriptionField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="imageField" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="phoneField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="titleField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="MainAudiotebookViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MainAudiotebookViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="addAudio:forEvent:" candidateClass="UIButton"/>
+                <relationship kind="action" name="addPhoto:forEvent:" candidateClass="UIButton"/>
+                <relationship kind="action" name="backgroundTap:"/>
+                <relationship kind="action" name="reset:forEvent:" candidateClass="UIButton"/>
+                <relationship kind="action" name="submit:forEvent:" candidateClass="UIButton"/>
+                <relationship kind="action" name="textFieldDoneEditing:"/>
+                <relationship kind="outlet" name="contactName" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="latitudeLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="longitudeLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="notes" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="photoMessage" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="selectedImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="slug" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="MenuViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MenuViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
